@@ -1,0 +1,72 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg",
+      "genre_ids": [
+        10765,
+        18,
+        10759
+      ],
+      "id": 1399,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Game of Thrones",
+      "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+      "popularity": 166.9476,
+      "poster_path": "/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
+      "first_air_date": "2011-04-17",
+      "softcore": false,
+      "name": "Game of Thrones",
+      "vote_average": 8.476,
+      "vote_count": 28198
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/buy1QlEVABDyC8BYqebmz7tMnEd.jpg",
+      "genre_ids": [],
+      "id": 9,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Match Game",
+      "overview": "The five-day-a-week syndicated successor to the popular CBS game show, where two contestants compete to match fill-in-the-blank phrases with those of the celebrities.",
+      "popularity": 95.8846,
+      "poster_path": "/yO1yfYyHemDZAJyLNLz3tCiaNC8.jpg",
+      "first_air_date": "1973-07-02",
+      "softcore": false,
+      "name": "Match Game",
+      "vote_average": 7.724,
+      "vote_count": 29
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
+      "genre_ids": [
+        10759,
+        9648,
+        18
+      ],
+      "id": 93405,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "오징어 게임",
+      "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+      "popularity": 48.6956,
+      "poster_path": "/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
+      "first_air_date": "2021-09-17",
+      "softcore": false,
+      "name": "Squid Game",
+      "vote_average": 7.851,
+      "vote_count": 17955
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 3
+}

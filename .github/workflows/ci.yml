@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  FLUTTER_VERSION: 3.50.0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Install Flutter ${{ env.FLUTTER_VERSION }}
+        run: |
+          git clone --depth 1 --branch "$FLUTTER_VERSION" https://github.com/flutter/flutter.git "$RUNNER_TEMP/flutter"
+          echo "$RUNNER_TEMP/flutter/bin" >> "$GITHUB_PATH"
+          "$RUNNER_TEMP/flutter/bin/flutter" --version
+
+      - name: Resolve dependencies
+        run: |
+          for dir in core about movie tv_series; do
+            (cd "$dir" && flutter pub get)
+          done
+          flutter pub get --enforce-lockfile
+
+      - name: Check formatting
+        run: |
+          for dir in core about movie tv_series .; do
+            (cd "$dir" && dart format --output=none --set-exit-if-changed .)
+          done
+
+      - name: Analyze
+        run: |
+          for dir in core about movie tv_series .; do
+            echo "analyze $dir"
+            (cd "$dir" && flutter analyze)
+          done
+
+      - name: Test with coverage
+        run: |
+          for dir in core about movie tv_series .; do
+            echo "test $dir"
+            (cd "$dir" && flutter test --coverage)
+          done
+
+      - name: Build debug APK
+        run: flutter build apk --debug

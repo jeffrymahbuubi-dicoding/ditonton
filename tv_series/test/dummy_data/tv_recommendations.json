@@ -1,0 +1,79 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/577eXC8wFQT0eUrJcgznSiFPRmk.jpg",
+      "genre_ids": [
+        10765,
+        18,
+        10759
+      ],
+      "id": 94997,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "House of the Dragon",
+      "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
+      "popularity": 74.0774,
+      "poster_path": "/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg",
+      "first_air_date": "2022-08-21",
+      "softcore": false,
+      "name": "House of the Dragon",
+      "vote_average": 8.377,
+      "vote_count": 7330,
+      "media_type": "tv"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8mlPjKqMROLwpuuvKb0qXIFXAwf.jpg",
+      "genre_ids": [
+        10765,
+        18,
+        10759
+      ],
+      "id": 62417,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Emerald City",
+      "overview": "In the blink of a tornado’s eye, 20-year-old Dorothy Gale and her K9 police dog are transported to another world, one far removed from our own — a mystical land of competing kingdoms, lethal warriors, dark magic and a bloody battle for supremacy. This is the fabled Land of Oz in a way you’ve never seen before, where wicked witches don’t stay dead for long and a young girl becomes a headstrong warrior who holds the fate of kingdoms in her hands.",
+      "popularity": 5.1745,
+      "poster_path": "/xjJSsAMd1kQrIslv4qHSMyGx9UT.jpg",
+      "first_air_date": "2017-01-06",
+      "softcore": false,
+      "name": "Emerald City",
+      "vote_average": 6.618,
+      "vote_count": 220,
+      "media_type": "tv"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4XKzTeqiZOvmvs8iSh6GK4l3Hii.jpg",
+      "genre_ids": [
+        10765,
+        10759,
+        18
+      ],
+      "id": 7704,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Legend of the Seeker",
+      "overview": "The adventures of woodsman Richard Cypher, who discovers that he was born to fulfill a prophecy of becoming a guardian hero to oppressed people. With the help of a mysterious woman named Kahlan and a wise old wizard named Zedd, he must stop a ruthless and bloodthirsty tyrant from unleashing an ancient evil and enslaving the world.",
+      "popularity": 17.9824,
+      "poster_path": "/ibclBUwEjsvfi8hpdO2i9jdOMUI.jpg",
+      "first_air_date": "2008-11-01",
+      "softcore": false,
+      "name": "Legend of the Seeker",
+      "vote_average": 7.435,
+      "vote_count": 385,
+      "media_type": "tv"
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 3
+}

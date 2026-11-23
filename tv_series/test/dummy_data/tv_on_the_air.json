@@ -1,0 +1,72 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/uVOcz7JBOuZxsx9IYpx6Ah174LX.jpg",
+      "genre_ids": [
+        10759,
+        10765
+      ],
+      "id": 84773,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Lord of the Rings: The Rings of Power",
+      "overview": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of Númenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
+      "popularity": 1865.5108,
+      "poster_path": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
+      "first_air_date": "2022-09-01",
+      "softcore": false,
+      "name": "The Lord of the Rings: The Rings of Power",
+      "vote_average": 7.218,
+      "vote_count": 4099
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/x8pSFa3BXyVpkjHyn7YxmLyhjoh.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 37678,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Voice",
+      "overview": "The strongest vocalists from across the United states compete in a blockbusters vocal competition, the winner becomes “The Voice.” The show's innovative format features four stages of competition: the blind auditions, the battle rounds, the knockouts and, finally, the live performance shows.",
+      "popularity": 1446.9501,
+      "poster_path": "/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
+      "first_air_date": "2011-04-26",
+      "softcore": false,
+      "name": "The Voice",
+      "vote_average": 5.8,
+      "vote_count": 233
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+      "genre_ids": [
+        16,
+        35
+      ],
+      "id": 456,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Simpsons",
+      "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+      "popularity": 1389.9114,
+      "poster_path": "/tf0CUEynk6GfmrlHIQKQ5mfFP5P.jpg",
+      "first_air_date": "1989-12-17",
+      "softcore": false,
+      "name": "The Simpsons",
+      "vote_average": 8.028,
+      "vote_count": 11181
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 3
+}

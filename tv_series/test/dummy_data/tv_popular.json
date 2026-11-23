@@ -1,0 +1,75 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
+      "genre_ids": [
+        18,
+        9648,
+        10765
+      ],
+      "id": 1413,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "American Horror Story",
+      "overview": "An anthology horror drama series centering on different characters and locations, including a house with a murderous past, an asylum, a witch coven, a freak show, a hotel, a farmhouse in Roanoke, a cult, the apocalypse and a summer camp.",
+      "popularity": 1907.6284,
+      "poster_path": "/yCkPLQ10qKIUgRBXmQVVMF1h96d.jpg",
+      "first_air_date": "2011-10-05",
+      "softcore": false,
+      "name": "American Horror Story",
+      "vote_average": 8.1,
+      "vote_count": 6306
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
+      "genre_ids": [
+        80,
+        18,
+        9648
+      ],
+      "id": 2734,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Law & Order: Special Victims Unit",
+      "overview": "In the criminal justice system, sexually-based offenses are considered especially heinous. In New York City, the dedicated detectives who investigate these vicious felonies are members of an elite squad known as the Special Victims Unit. These are their stories.",
+      "popularity": 2003.0869,
+      "poster_path": "/pHNhUwSXuDQ9jPZOCb8SgJaQZsc.jpg",
+      "first_air_date": "1999-09-20",
+      "softcore": false,
+      "name": "Law & Order: Special Victims Unit",
+      "vote_average": 8.0,
+      "vote_count": 4422
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uVOcz7JBOuZxsx9IYpx6Ah174LX.jpg",
+      "genre_ids": [
+        10759,
+        10765
+      ],
+      "id": 84773,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Lord of the Rings: The Rings of Power",
+      "overview": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of Númenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
+      "popularity": 1865.5108,
+      "poster_path": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
+      "first_air_date": "2022-09-01",
+      "softcore": false,
+      "name": "The Lord of the Rings: The Rings of Power",
+      "vote_average": 7.218,
+      "vote_count": 4098
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 3
+}

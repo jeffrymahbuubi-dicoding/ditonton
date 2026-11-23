@@ -1,0 +1,75 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "genre_ids": [
+        16,
+        10759,
+        10765
+      ],
+      "id": 312359,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "ドラゴンボール超 ビルス",
+      "overview": "When Beerus, the God of Destruction, awakens in search of a worthy rival, Goku and his friends face an epic battle to stop him from destroying Earth.\n\nRemastered and re-edited version of Dragon Ball Super.",
+      "popularity": 92.6336,
+      "poster_path": "/AojgldgsOlzZV8ahyOzaiAjJWvV.jpg",
+      "first_air_date": "2026-10-11",
+      "softcore": false,
+      "name": "Dragon Ball Super: Beerus",
+      "vote_average": 9.6,
+      "vote_count": 424
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sGitHICLzIQQBiwE67lZLy6W67u.jpg",
+      "genre_ids": [
+        10759,
+        18,
+        35
+      ],
+      "id": 276161,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "참교육",
+      "overview": "An inspector from the Educational Rights Protection Bureau (ERPB) who is authorized by the government to use physical intervention and unconventional methods to discipline delinquent students and reform the educational system.",
+      "popularity": 35.5614,
+      "poster_path": "/fMECSPrTmRClSViMsXFYmiYIcWP.jpg",
+      "first_air_date": "2026-06-05",
+      "softcore": false,
+      "name": "Teach You a Lesson",
+      "vote_average": 9.337,
+      "vote_count": 1027
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ewlmL0nxo2lLqBj69upgp2gjHpV.jpg",
+      "genre_ids": [
+        37,
+        18
+      ],
+      "id": 299167,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Dutton Ranch",
+      "overview": "Rip Wheeler and Beth Dutton gamble everything on a new life in South Texas, but the promise of building a future far from the ghosts of Yellowstone quickly collides with brutal new realities and a rival ranch that will stop at nothing to protect its empire.",
+      "popularity": 29.9415,
+      "poster_path": "/xsiecCxd8lkcAluw0wWwbW5CwSv.jpg",
+      "first_air_date": "2026-05-15",
+      "softcore": false,
+      "name": "Dutton Ranch",
+      "vote_average": 9.123,
+      "vote_count": 664
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 3
+}
