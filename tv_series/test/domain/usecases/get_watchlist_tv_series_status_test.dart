@@ -20,6 +20,7 @@ void main() {
     final result = await usecase.execute(1399);
     // assert
     expect(result, true);
-    verify(mockRepository.isAddedToWatchlist(1399));
+    verify(mockRepository.isAddedToWatchlist(1399)).called(1);
+    verifyNoMoreInteractions(mockRepository);
   });
 }

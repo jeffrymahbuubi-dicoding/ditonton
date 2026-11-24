@@ -22,7 +22,8 @@ void main() {
     // act
     final result = await usecase.execute(testMovieDetail);
     // assert
-    verify(mockMovieRepository.saveWatchlist(testMovieDetail));
     expect(result, Right('Added to Watchlist'));
+    verify(mockMovieRepository.saveWatchlist(testMovieDetail)).called(1);
+    verifyNoMoreInteractions(mockMovieRepository);
   });
 }

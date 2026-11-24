@@ -22,7 +22,8 @@ void main() {
     // act
     final result = await usecase.execute(testMovieDetail);
     // assert
-    verify(mockMovieRepository.removeWatchlist(testMovieDetail));
     expect(result, Right('Removed from watchlist'));
+    verify(mockMovieRepository.removeWatchlist(testMovieDetail)).called(1);
+    verifyNoMoreInteractions(mockMovieRepository);
   });
 }

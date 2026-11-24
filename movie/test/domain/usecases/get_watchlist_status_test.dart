@@ -21,5 +21,7 @@ void main() {
     final result = await usecase.execute(1);
     // assert
     expect(result, true);
+    verify(mockMovieRepository.isAddedToWatchlist(1)).called(1);
+    verifyNoMoreInteractions(mockMovieRepository);
   });
 }

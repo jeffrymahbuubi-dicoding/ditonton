@@ -1,4 +1,6 @@
+import 'package:core/core.dart';
 import 'package:dartz/dartz.dart';
+import 'package:movie/domain/entities/movie_detail.dart';
 import 'package:movie/domain/usecases/get_movie_detail.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
@@ -15,7 +17,21 @@ void main() {
     usecase = GetMovieDetail(mockMovieRepository);
   });
 
-  final tId = 1;
+  const tId = 1;
+  const tExpectedDetail = MovieDetail(
+    adult: false,
+    backdropPath: 'backdropPath',
+    genres: [Genre(id: 1, name: 'Action')],
+    id: 1,
+    originalTitle: 'originalTitle',
+    overview: 'overview',
+    posterPath: 'posterPath',
+    releaseDate: 'releaseDate',
+    runtime: 120,
+    title: 'title',
+    voteAverage: 1,
+    voteCount: 1,
+  );
 
   test('should get movie detail from the repository', () async {
     // arrange
@@ -24,6 +40,8 @@ void main() {
     // act
     final result = await usecase.execute(tId);
     // assert
-    expect(result, Right(testMovieDetail));
+    expect(result, const Right(tExpectedDetail));
+    verify(mockMovieRepository.getMovieDetail(tId)).called(1);
+    verifyNoMoreInteractions(mockMovieRepository);
   });
 }

@@ -26,17 +26,20 @@ void main() {
       final result = await usecase.execute(testTvSeriesDetail);
       // assert
       expect(result, const Right('Added to Watchlist'));
-      verify(mockRepository.saveWatchlist(testTvSeriesDetail));
+      verify(mockRepository.saveWatchlist(testTvSeriesDetail)).called(1);
+      verifyNoMoreInteractions(mockRepository);
     },
   );
 
   test('should pass the failure of the repository through', () async {
     // arrange
     when(mockRepository.saveWatchlist(testTvSeriesDetail))
-        .thenAnswer((_) async => const Left(ServerFailure('')));
+        .thenAnswer((_) async => const Left(ServerFailure('Server Failure')));
     // act
     final result = await usecase.execute(testTvSeriesDetail);
     // assert
-    expect(result, const Left(ServerFailure('')));
+    expect(result, const Left(ServerFailure('Server Failure')));
+    verify(mockRepository.saveWatchlist(testTvSeriesDetail)).called(1);
+    verifyNoMoreInteractions(mockRepository);
   });
 }

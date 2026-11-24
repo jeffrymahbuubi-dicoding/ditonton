@@ -1,8 +1,8 @@
-# a199-flutter-expert-project
+# Ditonton
 
 [![CI](https://github.com/jeffrymahbuubi-dicoding/ditonton/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jeffrymahbuubi-dicoding/ditonton/actions/workflows/ci.yml)
 
-Repository ini merupakan starter project submission kelas Flutter Expert Dicoding Indonesia.
+Ditonton adalah aplikasi katalog film dan serial TV (daftar, detail, rekomendasi, pencarian, dan watchlist) yang dibuat dengan Flutter untuk submission kelas Flutter Expert Dicoding Indonesia.
 
 ---
 
